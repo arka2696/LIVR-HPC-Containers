@@ -1,9 +1,8 @@
 Complete recipe for creating Singularity (Apptainer) definition file for the Svetlana container as well as instructions for building and running the container with GPU support.
 
 ---
-
-```markdown
 # Svetlana Singularity Container Recipe
+
 
 This repository provides the Singularity (Apptainer) definition file for the **Svetlana** environment.
 The container is designed to run **Napari** (v0.4.17 with all extras) together with the **napari_svetlana** plugin (v1.6.1) and additional dependencies required for GPU-accelerated processing.
@@ -14,7 +13,7 @@ The container sets up a conda environment called `svetlana_env` with Python 3.9 
 - **PyTorch:** Installed via pip (torch, torchvision, torchaudio) for CUDA 11.8 using the command `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
 - **Cupy:** Version 13.4.* for CUDA 11.8 from conda-forge
 - **Additional Dependencies:** pydantic (v1.10.21), NumPy (pinned to 1.24.3), scikit‑learn (v1.6.1), ttach, and grad-cam (which provides the `pytorch_grad_cam` module)
-```
+
 
 ## Singularity Definition File (`svetlana.def`)
 
