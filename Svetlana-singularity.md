@@ -12,6 +12,7 @@ This repository provides the Singularity (Apptainer) definition file for the **S
 - **PyTorch:** Installed via pip (torch, torchvision, torchaudio) for CUDA 11.8 using the command `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
 - **Cupy:** Version 13.4.* for CUDA 11.8 from conda-forge
 - **Additional Dependencies:** pydantic (v1.10.21), NumPy (pinned to 1.24.3), scikit‑learn (v1.6.1), ttach, and grad-cam (which provides the `pytorch_grad_cam` module)
+```
 
 ## Singularity Definition File (`svetlana.def`)
 
