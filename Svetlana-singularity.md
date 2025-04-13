@@ -5,7 +5,9 @@ Complete recipe for creating Singularity (Apptainer) definition file for the Sve
 ```markdown
 # Svetlana Singularity Container Recipe
 
-This repository provides the Singularity (Apptainer) definition file for the **Svetlana** environment. The container is designed to run **Napari** (v0.4.17 with all extras) together with the **napari_svetlana** plugin (v1.6.1) and additional dependencies required for GPU-accelerated processing. The container sets up a conda environment called `svetlana_env` with Python 3.9 via Miniforge and includes:
+This repository provides the Singularity (Apptainer) definition file for the **Svetlana** environment.
+The container is designed to run **Napari** (v0.4.17 with all extras) together with the **napari_svetlana** plugin (v1.6.1) and additional dependencies required for GPU-accelerated processing.
+The container sets up a conda environment called `svetlana_env` with Python 3.9 via Miniforge and includes:
 
 - **Napari:** Installed with all extras (v0.4.17)
 - **CUDA Toolkit:** `cudatoolkit` 11.8 installed from conda-forge (using the official syntax)
