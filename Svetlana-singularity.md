@@ -1,4 +1,4 @@
-Below is a finalized Markdown file you can paste on GitHub. It includes the complete Singularity (Apptainer) definition file for the Svetlana container as well as instructions for building and running the container with GPU support.
+Complete recipe for creating Singularity (Apptainer) definition file for the Svetlana container as well as instructions for building and running the container with GPU support.
 
 ---
 
@@ -139,5 +139,3 @@ If you have any questions or need further assistance, please open an issue or co
 ```
 
 ---
-
-When you open this file on GitHub (e.g., as `README.md`), it will display with proper formatting, including code blocks and build/run instructions. Enjoy your container!
